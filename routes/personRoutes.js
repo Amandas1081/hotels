@@ -55,6 +55,7 @@ router.put('/:id', async(req,res)=>{
         res.status(500).json({error: 'internal server error'});
     }
 })
+//comment added
 router.delete('/:id', async(req,res)=>{
     try{
         const personId=req.params.id;
